@@ -27,5 +27,26 @@ $calendar_2018 = [
  "December" => "12月",
 ];
     echo $calendar_2018["December"];
+  
+  
+  
     
-    
+//PHP・Laravel03 課題
+//課題１
+$name = "hiraki_mayu";
+if ($name == "hiraki_mayu") {
+    echo "私は平木眞由です。";
+} else if ($name != "hiraki_mayu") {
+    echo "私は平木眞由ではありません。";
+}
+
+//課題２
+for ($a = 0; $a <= 1000; $a++){
+    echo $a;
+}
+
+//課題３
+$fruits = array ("イチゴ","みかん","りんご","なし","ぶどう");
+foreach ($fruits as $fruits) {
+    echo $fruits;
+}
