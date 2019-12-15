@@ -48,5 +48,14 @@ for ($a = 0; $a <= 1000; $a++){
 //課題３
 $fruits = array ("イチゴ","みかん","りんご","なし","ぶどう");
 foreach ($fruits as $fruits) {
-    echo $fruits;
+    echo $fruits."\n";
+}
+
+//課題４応用
+
+//1〜100までの間
+for ($i =1; $i <= 100; $i ++) {
+    if ($i %5 === 0) {
+        echo $i."\n";
+    }
 }
