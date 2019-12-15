@@ -32,10 +32,10 @@ $fruits = array ("イチゴ","みかん","りんご","なし","ぶどう");
 foreach ($fruits as $fruits) {
     echo $fruits;
 }
-$start = 1;
-$end = 100;
-for($i = $start; $i <= 100; $a++){
-    if (($i %5 ) ==0 ){
-        echo $i;
-    }
+
+$total= 0;
+for($i=5; $i<=10; $i++) {
+    $total += $i;
 }
+echo $total;
+
