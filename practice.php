@@ -33,9 +33,3 @@ foreach ($fruits as $fruits) {
     echo $fruits;
 }
 
-$total= 0;
-for($i=5; $i<=10; $i++) {
-    $total += $i;
-}
-echo $total;
-
