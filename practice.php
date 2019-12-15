@@ -10,23 +10,22 @@ echo $hello.$name.$world;
 $tech_boost = "tech";
 $tech_boost .= "boost";
 echo $tech_boost;
-$height = 160;
-if ($height < 150) {
-    echo"150㎝未満の方はご乗車できません。";
-} else {
-    echo "ご乗車になれます。";
-}
-$name = "hiraki_mayu";
-if ($name == "hiraki_mayu") {
-    echo "私は平木眞由です。";
-} else if ($name != "hiraki_mayu") {
-    echo "私は平木眞由ではありません。";
-}
-for ($a = 0; $a <= 1000; $a++){
-    echo $a;
-}
-$fruits = array ("イチゴ","みかん","りんご","なし","ぶどう");
-foreach ($fruits as $fruits) {
-    echo $fruits;
-}
 
+//【5.応用】
+$calendar_2018 = [
+ "january" => "1月",
+ "February" => "2月",
+ "March" => "3月",
+ "April" => "4月",
+ "May" => "5月",
+ "June" => "6月",
+ "July" => "7月",
+ "August" => "8月",
+ "September" => "9月",
+ "October" => "10月",
+ "November" => "11月",
+ "December" => "12月",
+];
+    echo $calendar_2018["December"];
+    
+    
