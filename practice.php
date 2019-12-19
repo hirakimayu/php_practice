@@ -59,3 +59,29 @@ for ($i =1; $i <= 100; $i ++) {
         echo $i."\n";
     }
 }
+
+?>
+
+<?php
+//PHP・Laravel 04 課題１
+function sum($max) {
+    return $max *2;
+}
+ echo sum(100)."\n";
+
+//課題２
+function f($a, $b) {
+    return $a + $b;
+ }
+ echo f(5,2)."\n";
+
+//課題３ 
+function g($arr) {
+  $result =1;
+  foreach ($arr as $value){
+    $result *= $value;
+  }
+  return $result;
+}
+$arr =[1,3,5,7,9];
+echo g($arr)."\n";
